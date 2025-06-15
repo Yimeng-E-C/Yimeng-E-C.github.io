@@ -1,7 +1,7 @@
 ---
 title: "A special positioning fixture for the steering knuckle of an unconventional vehicle"
 collection: publications
-category: manuscripts
+category: books
 permalink: #/publication/2015-10-01-paper-title-number-3
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
 date: 2022-12-01
