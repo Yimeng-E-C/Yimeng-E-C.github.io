@@ -1,7 +1,7 @@
 ---
 title: "1 Re-Tribe"
-excerpt1: "Short description of portfolio item number 1<br/><img src='/images/Portfolio-YC_30.png'>"
-excerpt2: "Short description of portfolio item number 1<br/><img src='/images/Portfolio-YC_30.png'>"
+excerpt1: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt2: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: research
 ---
 
