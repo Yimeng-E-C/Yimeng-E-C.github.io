@@ -14,6 +14,10 @@ main:
     url: /cv/
 
 
+  - title: "Research"
+    url: /research/
+
+
   - title: "Publications"
     url: /publications/
 
@@ -21,9 +25,6 @@ main:
   - title: "Portfolio (extra data needed)"
     url: /portfolio/
         
-  
-  - title: "e1520626@u.nus.edu"
-    url: 
 
 
   - title: "🤖"
