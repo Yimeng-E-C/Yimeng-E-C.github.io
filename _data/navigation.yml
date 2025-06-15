@@ -14,10 +14,9 @@ main:
     url: /cv/
   
   
-  - title: "Research"
-    url: /research/
-
-
+  - title: "Blog Posts"
+    url: /year-archive/
+  
 
   - title: "Publications"
     url: /publications/
