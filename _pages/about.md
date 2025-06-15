@@ -7,16 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Yimeng Cai is a motivated student at the National University of Singapore. He is currently looking for RA position and PhD position for 2026 fall.
+Yimeng Cai is a motivated student at the National University of Singapore. \n He is currently looking for RA position and PhD position for 2026 fall.
 
 Education Background
 ======
-National University of Singapore\n
+National University of Singapore \n
 Master of Science in Engineering Design, 2025.8 - 2026.7
 
-China Agricultural University\n
-Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7\n
-· GPA 3.57/4\n
+China Agricultural University \n
+Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7 \n
+· GPA 3.57/4 \n
 · Outstanding Graduation Thesis, College of Engineering
 
 
