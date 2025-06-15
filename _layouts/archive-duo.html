@@ -15,11 +15,13 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive-duo">
+  <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
+
     <div class="project-grid">
+      <!-- 假设这里是动态生成的项目内容 -->
       {% for item in site.projects %}
         <div class="project-item">
           <h2>{{ item.title }}</h2>
