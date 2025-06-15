@@ -24,6 +24,8 @@ Master of Science in Engineering Design, 2025.8 - 2026.7
 Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7
 * GPA 3.57/4
 * Outstanding Graduation Thesis, College of Engineering
+* Second class scholarship 2023-2024,  Dec 2024, CAU, China (Rank 2/30)
+* "Wuzheng" social sponsored scholarship, Dec 2024, China (Top10%)
 
 
 ⭐️News

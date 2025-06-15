@@ -14,6 +14,23 @@ Education
 * M.S. in Engineering Design, National University of Singapore, 2025.8 - 2026.7
 * B.Eng. in Industrial Design, China Agricultural University, 2021.9 - 2025.7
 
+# Awards
+* Awards from Competitions
+  * Municipal Second Prize, The 13th “Challenge Cup” Extracurricular Academic and Technological Works Competition for Beijing College Students, Aug 2023
+  * University First Prize, National 3D Digital Modeling Cometition, jul 2024
+  * Municipal Second Prize,The 16th National Advertising Art Design Contest for College Students, Sep 2024
+  * Municipal First Prize, China International College Students Innovation Competition, Sep 2024
+  * Municipal Second Prize, The Third Beijing College Students Innovation and Entrepreneurship Competition, Sep 2024
+* Scholarship
+  * Third class scholarship 2022-2023,  Dec 2023, CAU, China
+  * Second class scholarship 2023-2024,  Dec 2024, CAU, China (Rank 2/30)
+  * "Wuzheng" social sponsored scholarship, Dec 2024, China (Top10%)
+  * Outstanding Recreational Contributes Scholarship, Dec 2024, CAU, China
+* Other
+  * Outstanding Student Leader 2022-2023,  Dec 2023, CAU, China
+  * National Top 10 Summer Practical Achievement, The 9th National Summer Practice Exhibition for College Students, Nov 2023
+
+
 Work experience
 ======
 * Casdao Technology Co. Ltd. - Beijing, 11.2024 - 03.2025
