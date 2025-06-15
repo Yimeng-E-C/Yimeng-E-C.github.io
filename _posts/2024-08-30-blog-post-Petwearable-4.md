@@ -7,7 +7,7 @@ tags:
   - Wearable
   - Emotion
 ---
-<img src='/images/500x300.png'>
+<img src='/images/b1.png'>
 
 
 ### **As Leader**  2024.3 - 2024.8

@@ -7,7 +7,7 @@ tags:
   - Structure Design
   - System Design
 ---
-<img src='/images/500x300.png'>
+<img src='/images/c1.png'>
 
 
 ### **As Research Member**  2023.9 - 2024.6

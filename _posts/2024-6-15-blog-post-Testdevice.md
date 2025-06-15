@@ -7,7 +7,7 @@ tags:
   - Circuit Design
   - Agriculture
 ---
-<img src='/images/500x300.png'>
+<img src='/images/d1.png'>
 
 
 ### **As Research Member**  2024.3 - 2024.6
