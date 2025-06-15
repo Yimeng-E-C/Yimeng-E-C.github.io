@@ -9,7 +9,7 @@ redirect_from:
 
 Yimeng Cai is a motivated student at the National University of Singapore. He is currently looking for RA position and PhD position for 2026 fall.
 
-Sticky Info
+Topped Info
 ======
 1. Email: e1520626@u.nus.edu
 1. [Linkedin: Yimeng (Ethan) Cai](https://www.linkedin.com/in/yimeng-cai-a52319357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
