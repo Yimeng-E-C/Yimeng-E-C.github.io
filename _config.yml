@@ -85,6 +85,15 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Publication Category - The following the list of publication categories and their headings
+research_category:
+  books:
+    title: 'As Leader'
+  manuscripts:
+    title: 'As Researcher'    
+  conferences:
+    title: 'Conference Papers'
+
 # Site Settings
 teaser                   : 500x300.png # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -219,6 +228,9 @@ collections:
     output: false
     permalink: /:collection/:path/
   publications:
+    output: true
+    permalink: /:collection/:path/
+  research:
     output: true
     permalink: /:collection/:path/
   portfolio:
