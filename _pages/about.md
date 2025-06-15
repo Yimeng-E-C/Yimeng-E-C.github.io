@@ -11,12 +11,13 @@ Yimeng Cai is a motivated student at the National University of Singapore. \n He
 
 Education Background
 ======
-National University of Singapore \n
+*## National University of Singapore, College of Design and Engineering*
 Master of Science in Engineering Design, 2025.8 - 2026.7
 
-China Agricultural University \n
-Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7 \n
-· GPA 3.57/4 \n
+*## China Agricultural University, College of Engineering*
+Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7
+· GPA 3.57/4
+
 · Outstanding Graduation Thesis, College of Engineering
 
 
