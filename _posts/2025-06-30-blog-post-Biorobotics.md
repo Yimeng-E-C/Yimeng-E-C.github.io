@@ -20,4 +20,11 @@ Aiming at the problems that traditional soil nodule prevention and control metho
 2. Structure mechanical design, mechnism motion simulation.
 3. Simulation on drag rudection surface.
 4. Prototyping, Control system programing, prototype verification.
-
+## Results:
+<img src='/images/500x300.png'>  
+#### Fig1.  
+<img src='/images/500x300.png'>  
+#### Fig2.  
+<img src='/images/500x300.png'>  
+#### Fig3.  
+<img src='/images/500x300.png'>  
