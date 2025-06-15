@@ -1,7 +1,7 @@
 ---
 title: "Modular pet collar"
 collection: publications
-category: books
+category: manuscripts
 permalink: #/publication/2024-02-17-paper-title-number-4
 excerpt: 'Industrial Design'
 date: 2024-12-01
