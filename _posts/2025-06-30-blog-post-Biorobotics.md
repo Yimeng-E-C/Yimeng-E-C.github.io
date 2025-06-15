@@ -7,7 +7,7 @@ tags:
   - Robotics
   - Agriculture
 ---
-<img src='/images/500x300.png'>
+<img src='/images/a1.png'>
 
 
 ### **As Leader**  2024.12 - 2025.6
