@@ -8,7 +8,7 @@ tags:
   - UAV Swarm System
   - Robot Perception
 ---
-<img src='/images/500x300.png'>
+<img src='/images/01.png'>
 
 
 ### **As Leader**  
