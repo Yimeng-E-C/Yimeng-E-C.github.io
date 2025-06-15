@@ -23,8 +23,13 @@ Aiming at the problems that traditional soil nodule prevention and control metho
 ## Results:
 <img src='/images/500x300.png'>  
 Fig1.  
+#### text1
 <img src='/images/500x300.png'>  
 Fig2.  
+#### text1
 <img src='/images/500x300.png'>  
 Fig3.  
+#### text1
 <img src='/images/500x300.png'>  
+Fig4.  
+#### text1
