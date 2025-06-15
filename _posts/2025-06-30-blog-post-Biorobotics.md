@@ -16,9 +16,9 @@ Graduation Research Project, Beijing Undergraduate Innovation and Entrepreneursh
 ### **Abstract**: 
 Aiming at the problems that traditional soil nodule prevention and control methods have, this study designed an earthworm biomimic robot that can simulate the earthworm's locomotion mechanism, loosen the deep soil nodules and transport nutrients according to the physiological structure and locomotion mechanism of the earthworms. The robot mimics the earthworm's circular and longitudinal muscles through multiple sets of multi-bar and rack-and-pinion drive systems, realizing the principle of peristaltic backward wave motion according to simulation and prototype experiments, and the FEM experiments revealed that the wavy geometrical non-smooth surface structure is able to reduce the running resistance by up to 20.06% in high-viscosity and high-resistance media. It also records the content of various elements in the soil and analyses the recorded data in real time, providing new ideas for the management of soil nodules and the prevention of soil problems. \n
 ### **Contribution**:
-1) Literature review on soft-robotics, bio-mimic robots, soil protection methods, earthworm studies.
-2) Structure mechanical design, mechnism motion simulation
-3) Simulation on drag rudection surface
-4) Prototyping, Control system programing, prototype verification
+1) Literature review on soft-robotics, bio-mimic robots, soil protection methods, earthworm studies.  \n
+2) Structure mechanical design, mechnism motion simulation.  \n  
+3) Simulation on drag rudection surface.  \n
+4) Prototyping, Control system programing, prototype verification.  \n
 
 
