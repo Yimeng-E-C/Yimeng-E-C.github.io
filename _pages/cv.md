@@ -53,6 +53,8 @@ Skills
 * CET-6: 609
 * IELTS: 7.5
 * GRE: 333+3.5
+
+
 ## Software
 * SolidWorks
   * Industrial Modeling
