@@ -14,7 +14,7 @@ Education Background
 ## **National University of Singapore, College of Design and Engineering** < style = "color: #fa9b39;" >
 ### Master of Science in Engineering Design, 2025.8 - 2026.7
 
-## **China Agricultural University, College of Engineering**
+## **China Agricultural University, College of Engineering** < style = "color: #fa9b39;" >
 ### Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7
 1. GPA 3.57/4
 1. Outstanding Graduation Thesis, College of Engineering
