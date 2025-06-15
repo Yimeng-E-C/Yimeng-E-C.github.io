@@ -15,7 +15,7 @@ name                     : &name "Yimeng Cai"
 description              : &description "personal description"
 url                      : https://yimeng-e-c.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "yimeng-e-c.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/Yimeng-E-C/Yimeng-E-C.github.io"
+repository               : "Yimeng-E-C/Yimeng-E-C.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,10 +26,10 @@ author:
   name             : "Yimeng Cai"
   pronouns         : "he/his" # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Singapore"
+  employer         : "National University of Singapore"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "e1520626@u.nus.edu" 
 
   # Academic websites
   academia         : # URL
