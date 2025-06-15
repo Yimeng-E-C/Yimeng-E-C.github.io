@@ -296,7 +296,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _publications
+  # _research
   - scope:
       path: ""
       type: research
