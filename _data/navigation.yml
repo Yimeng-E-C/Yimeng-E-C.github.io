@@ -12,10 +12,11 @@ main:
  
   - title: "CV"
     url: /cv/
-
-
-- title: "research"
+  
+  
+  - title: "research"
     url: /research/
+
 
 
   - title: "Publications"
