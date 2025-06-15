@@ -11,7 +11,7 @@ Yimeng Cai is a motivated student at the National University of Singapore. \n He
 
 Education Background
 ======
-## **National University of Singapore, College of Design and Engineering**
+## **National University of Singapore, College of Design and Engineering** < style = "color: #fa9b39;" >
 ### Master of Science in Engineering Design, 2025.8 - 2026.7
 
 ## **China Agricultural University, College of Engineering**
