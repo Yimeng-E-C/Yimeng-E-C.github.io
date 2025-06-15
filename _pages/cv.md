@@ -16,17 +16,17 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Casdao Technology Co. Ltd. - Beijing, 11.2024 - 03.2025
   * GitHub University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
+* Chinese Academy of Agricultural Mechanization Sciences Group Co., Ltd. - Beijing, 03.2024 - 06.2024
   * GitHub University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
+* CAU Youth League, Department of creative media - Beijing, 10.2023 - 9.2024
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
