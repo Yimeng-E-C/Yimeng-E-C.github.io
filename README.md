@@ -13,7 +13,7 @@
 1. Check status by going to the repository settings, in the "GitHub pages" section
 1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-See more info at https://academicpages.github.io/
+See more info at https://Yimeng-E-C.github.io/
 
 ## Running locally
 
@@ -87,10 +87,10 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 <div align="center">
     
 ![pages-build-deployment](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/Yimeng-E-C/Yimeng-E-C.github.io.svg)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/Yimeng-E-C/Yimeng-E-C.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/Yimeng-E-C/Yimeng-E-C.github.io?color=blue)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/fork)
+[![GitHub stars](https://img.shields.io/github/stars/Yimeng-E-C/Yimeng-E-C.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/Yimeng-E-C/Yimeng-E-C.github.io)](https://github.com/Yimeng-E-C/Yimeng-E-C.github.io/fork)
 </div>
