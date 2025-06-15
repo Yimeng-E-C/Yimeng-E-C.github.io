@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Yimeng Cai is a motivated student at the National University of Singapore. He is currently looking for RA position and PhD position for 2026 fall.
+Yimeng Cai is a motivated student at the National University of Singapore. He is currently looking for RA position and PhD position for 2026 fall.  
+His research interests focus on bio-inspired mechanism and robotics, human-computer interaction and human-machine interaction. Particularly robotics and wearbles design for industrial, medical and agricultural applications.
 
 📍Topped Info
 ======
