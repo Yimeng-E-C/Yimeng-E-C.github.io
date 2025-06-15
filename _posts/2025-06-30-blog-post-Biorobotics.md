@@ -22,9 +22,9 @@ Aiming at the problems that traditional soil nodule prevention and control metho
 4. Prototyping, Control system programing, prototype verification.
 ## Results:
 <img src='/images/500x300.png'>  
-#### Fig1.  
+Fig1.  
 <img src='/images/500x300.png'>  
-#### Fig2.  
+Fig2.  
 <img src='/images/500x300.png'>  
-#### Fig3.  
+Fig3.  
 <img src='/images/500x300.png'>  
