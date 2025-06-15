@@ -17,28 +17,34 @@ Education
 Work experience
 ======
 * Casdao Technology Co. Ltd. - Beijing, 11.2024 - 03.2025
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * UX/UI Designer
+  * Casdao is a company providing server leasing and computing power service leasing for the B-end market. Responsible fordeveloping toC AI application platform website for Casdao, expending their business scope.
+  * ComfyUI workflow optimization.
 
 * Chinese Academy of Agricultural Mechanization Sciences Group Co., Ltd. - Beijing, 03.2024 - 06.2024
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Hardware Engineer
+  * Based on their previous research on potato dry matter testing and hand held device prototype, redesign a more compact device through structure
+  * optimization of the couping lens , circuit layout, device inner structure. Design the appearance of the device.
 
 * CAU Youth League, Department of creative media - Beijing, 10.2023 - 9.2024
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Department vice director
+  * DOrganizing school events, posters, social media posts.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+##Language
+* CET-6: 609
+* IELTS: 7.5
+* GRE: 333+3.5
+##Software
+* SolidWorks
+  * Industrial Modeling
+  * Dynamics Simulation
+* Cinema 4D
+  * Dynamics Simulation
+  * Video Rendering
+* Keyshot
+* Figma
 
 Publications
 ======
