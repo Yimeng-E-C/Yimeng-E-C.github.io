@@ -29,7 +29,7 @@ author:
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
-  e1520626@u.nus.edu            : "e1520626@u.nus.edu" 
+  email            : "e1520626@u.nus.edu" 
 
   # Academic websites
   academia         : # URL
@@ -103,16 +103,16 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'e1520626@u.nus.edu', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'e1520626@u.nus.edu', 'message']
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    e1520626@u.nus.edu                : "md5"
+    email                : "md5"
   generatedFields:
     date:
       type               : "date"
