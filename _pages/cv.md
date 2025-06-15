@@ -49,11 +49,11 @@ Work experience
   
 Skills
 ======
-##Language
+## Language
 * CET-6: 609
 * IELTS: 7.5
 * GRE: 333+3.5
-##Software
+## Software
 * SolidWorks
   * Industrial Modeling
   * Dynamics Simulation
