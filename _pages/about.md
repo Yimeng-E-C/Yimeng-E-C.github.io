@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Yimeng Cai is a motivated student at the National University of Singapore. \n He is currently looking for RA position and PhD position for 2026 fall.
+Yimeng Cai is a motivated student at the National University of Singapore. He is currently looking for RA position and PhD position for 2026 fall.
 
 Education Background
 ======
