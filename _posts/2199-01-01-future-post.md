@@ -1,7 +1,7 @@
 ---
 title: 'Future Blog Post'
 date: 2199-01-01
-permalink: /posts/2299/01/future-post/
+permalink: /research/future-post/
 tags:
   - cool posts
   - category1
