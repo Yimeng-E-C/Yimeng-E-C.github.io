@@ -12,7 +12,7 @@ Yimeng Cai is a motivated student at the National University of Singapore. He is
 Sticky Info
 ======
 1. Email: e1520626@u.nus.edu
-1. Linkedin: https://www.linkedin.com/in/yimeng-cai-a52319357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+1. [Linkedin: Yimeng (Ethan) Cai](https://www.linkedin.com/in/yimeng-cai-a52319357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 
 Education Background
