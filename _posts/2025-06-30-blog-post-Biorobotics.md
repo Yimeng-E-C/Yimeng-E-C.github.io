@@ -1,7 +1,7 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
-permalink: /posts/2299/01/future-post/
+title: 'Research on micro bio-mimic robot inspired by structures and locomotion principles of earthworm'
+date: 2025-06-30
+permalink: /posts/2025/06/Biorobotics/
 tags:
   - cool posts
   - category1
