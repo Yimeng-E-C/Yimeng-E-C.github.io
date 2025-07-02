@@ -20,11 +20,11 @@ Pet mental health is increasingly recognized as a crucial aspect of overall pet 
 4. Prototyping, Control system programing, prototype verification
 ## Results:
 ### text1
-<img src='/images/500x300.png'>  
-Fig1.  
+<img src='/images/coding.jpg'>  
+Fig1.  Code for the prototype
 ### text1
 <img src='/images/500x300.png'>  
-Fig2.  
+Fig2.  Questionnaire
 ### text1
 <img src='/images/500x300.png'>  
 Fig3.  
