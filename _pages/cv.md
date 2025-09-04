@@ -21,6 +21,7 @@ Education
   * Municipal Second Prize,The 16th National Advertising Art Design Contest for College Students, Sep 2024
   * Municipal First Prize, China International College Students Innovation Competition, Sep 2024
   * Municipal Second Prize, The Third Beijing College Students Innovation and Entrepreneurship Competition, Sep 2024
+  * Municipal 1st Prize, College Student Industrial Design Competition, 2025
 * Scholarship
   * Third class scholarship 2022-2023,  Dec 2023, CAU, China
   * Second class scholarship 2023-2024,  Dec 2024, CAU, China (Rank 2/30)
