@@ -31,5 +31,6 @@ Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7
 
 ⭐️News
 ======
+* Starting working as Research Assistant (part-time) at Zhai Group, NUS, focusing on hydrogel fiber conductivity and strength optimization for smart sensing (2025.8.18)
 * Received Graducation Certification from CAU (2025.6.17)
 * Journal Article “A Soil maintenance and restoration robot inspired by structure and locomotion principle of earthworm” is currently under peer review by IOP Bioinspiration & Biomimetics (2025.8.6)
