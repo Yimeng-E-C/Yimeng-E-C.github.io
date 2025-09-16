@@ -32,4 +32,4 @@ Bachelor of Engineering in Industrial Design, 2021.9 - 2025.7
 ⭐️News
 ======
 * Received Graducation Certification from CAU (2025.6.17)
-* Project "Research on Bio-mimic soil restoration robot inspired by locomition principles of earthworms" is now under the final process before submission (2025.6.6)
+* Journal Article “A Soil maintenance and restoration robot inspired by structure and locomotion principle of earthworm” is currently under peer review by IOP Bioinspiration & Biomimetics (2025.8.6)
