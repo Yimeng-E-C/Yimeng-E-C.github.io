@@ -10,15 +10,18 @@ export function mountPhotoRails() {
     const sizer=document.createElement('span');
     sizer.className='photo-sizer';sizer.setAttribute('aria-hidden','true');rail.append(sizer);
     const ratios=cards.map(card=>Number(card.dataset.photoRatio)||1);
-    let hovered=null,focused=null,tapped=null,index=Math.floor(cards.length/2),lastPointer='mouse';
-    let leaveTimer,entered=false,entering=false,animations=[],lastSize='';
+    const enlargements=cards.map(card=>Number(card.dataset.photoZoom)||1);
+    let hovered=null,focused=null,tapped=null,index=0,lastPointer='mouse';
+    let pointerX=null,pointerY=null,entered=false,entering=false,animations=[],lastSize='';
     const transform=({x,y,scale})=>`translate3d(calc(-50% + ${x}px),calc(-50% + ${y}px),0) scale(${scale})`;
     const dimensions=()=>({width:rail.clientWidth,w:sizer.offsetWidth,h:sizer.offsetHeight});
     function render(){
       const {width,w,h}=dimensions();
       const active=hovered??focused??tapped;
-      const positions=galleryLayout(cards.length,width,w,h,active,ratios);
+      const zoom=active===null?1:enlargements[active];
+      const positions=galleryLayout(cards.length,width,w,h,active,ratios,zoom,window.innerHeight);
       rail.dataset.active=active===null?'none':String(active);
+      rail.dataset.enlarged=String(zoom>1);
       cards.forEach((card,i)=>{
         card.style.width=`${positions[i].width}px`;
         card.style.height=`${positions[i].height}px`;
@@ -29,7 +32,7 @@ export function mountPhotoRails() {
         card.tabIndex=i===index?0:-1;
       });
     }
-    function resetHover(){clearTimeout(leaveTimer);hovered=null;render();}
+    function resetHover(){pointerX=pointerY=null;hovered=null;render();}
     function finishEntrance(){
       entering=false;rail.classList.remove('gallery-entering');render();
     }
@@ -63,14 +66,6 @@ export function mountPhotoRails() {
         if(img?.naturalWidth&&img.naturalHeight){ratios[i]=img.naturalWidth/img.naturalHeight;render();}
       };
       img?.addEventListener('load',readRatio);readRatio();
-      card.addEventListener('pointerenter',event=>{
-        if(entering||event.pointerType==='touch'||!fine.matches)return;
-        clearTimeout(leaveTimer);hovered=i;index=i;render();
-      });
-      card.addEventListener('pointerleave',event=>{
-        if(event.pointerType==='touch')return;
-        leaveTimer=setTimeout(()=>{if(hovered===i)resetHover();},65);
-      });
       card.addEventListener('focus',()=>{
         if(card.matches(':focus-visible')){focused=i;index=i;render();}
       });
@@ -78,6 +73,15 @@ export function mountPhotoRails() {
         if(fine.matches&&lastPointer!=='touch'&&event.detail>0)return;
         index=i;tapped=tapped===i?null:i;focused=null;render();
       });
+    });
+    rail.addEventListener('pointermove',event=>{
+      if(entering||event.pointerType==='touch'||!fine.matches)return;
+      // Moving cards must not switch the selection beneath a stationary pointer.
+      if(event.clientX===pointerX&&event.clientY===pointerY)return;
+      pointerX=event.clientX;pointerY=event.clientY;
+      const card=event.target.closest('[data-photo-card]');
+      const next=cards.indexOf(card);
+      if(next>=0&&next!==hovered){hovered=next;index=next;render();}
     });
     rail.addEventListener('pointerdown',event=>{
       lastPointer=event.pointerType;
