@@ -6,7 +6,11 @@ export function mountPortraitGrid(root) {
   const stage=root.closest('.opening-stage');
   const tiles=[...root.querySelectorAll('[data-portrait-tile]')];
   const originalIndex=tiles.findIndex(tile=>tile.dataset.original==='true');
-  const projects=[...document.querySelectorAll('.highlight-group[id]')].map(element=>({id:element.id,title:element.querySelector('h3').textContent.trim()}));
+  const projectIds=new Set([...root.querySelectorAll('[data-highlight-project]')].map(link=>link.dataset.highlightProject));
+  const projects=[...document.querySelectorAll('.highlight-group[id]')].filter(element=>projectIds.has(element.id)).map(element=>({
+    id:element.id,title:element.querySelector('h3').textContent.trim(),nextPhoto:0,
+    photos:[...element.querySelectorAll('[data-photo-card] img')].map(image=>({src:image.getAttribute('src'),width:image.getAttribute('width'),height:image.getAttribute('height')}))
+  }));
   const links=tiles.map(tile=>root.querySelector(`[data-highlight-slot="${tile.dataset.portraitId}"]`));
   const animations=new Map();
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
@@ -48,8 +52,11 @@ export function mountPortraitGrid(root) {
     }else if(phase==='portrait-out'){
       tile.inert=true;animateLayer(photo,false);
     }else if(phase==='highlight-in'){
-      tile.style.visibility='hidden';link.href=`#${projects[project].id}`;
-      link.setAttribute('aria-label',`查看 Highlight：${projects[project].title}`);
+      const selected=projects[project],image=surface.querySelector('img');
+      const picture=selected.photos[selected.nextPhoto++%selected.photos.length];
+      if(image&&picture){image.src=picture.src;image.width=Number(picture.width);image.height=Number(picture.height);}
+      tile.style.visibility='hidden';link.href=`#${selected.id}`;
+      link.setAttribute('aria-label',`查看 Highlight：${selected.title}`);
       link.hidden=false;link.inert=false;animateLayer(surface,true);
     }else if(phase==='highlight-out'){
       link.inert=true;animateLayer(surface,false);
