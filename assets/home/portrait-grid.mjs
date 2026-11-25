@@ -1,6 +1,6 @@
-import {portraitGridLayout,proximityWeight,portraitLensLayout,stepPortraitMotion} from './portrait-grid-layout.mjs';
-import {createPortraitIdleCycle} from './portrait-idle.mjs';
-import {createPortraitHighlightCycle} from './portrait-highlight-cycle.mjs';
+import {portraitGridLayout,proximityWeight,portraitLensLayout,stepPortraitMotion} from './portrait-grid-layout.mjs?v=d6f60d73512e';
+import {createPortraitIdleCycle} from './portrait-idle.mjs?v=d6f60d73512e';
+import {createPortraitHighlightCycle} from './portrait-highlight-cycle.mjs?v=d6f60d73512e';
 
 export function mountPortraitGrid(root) {
   const stage=root.closest('.opening-stage');
@@ -20,6 +20,7 @@ export function mountPortraitGrid(root) {
   let automatic=-1,idleStationary=false,suspended=false,disposed=false;
   const highlights=createPortraitHighlightCycle({
     indices:tiles.map((_,index)=>index).filter(index=>links[index]),projectCount:projects.length,
+    initialDelay:700,
     isAvailable:index=>index!==automatic&&index!==focused&&index!==pinned&&!tiles[index].matches(':hover'),
     onPhase:showHighlightPhase
   });
@@ -54,7 +55,10 @@ export function mountPortraitGrid(root) {
     }else if(phase==='highlight-in'){
       const selected=projects[project],image=surface.querySelector('img');
       const picture=selected.photos[selected.nextPhoto++%selected.photos.length];
-      if(image&&picture){image.src=picture.src;image.width=Number(picture.width);image.height=Number(picture.height);}
+      if(image&&picture){
+        image.src=picture.src;image.width=Number(picture.width);image.height=Number(picture.height);
+        link.dataset.photoOrientation=Number(picture.height)>Number(picture.width)?'portrait':'landscape';
+      }
       tile.style.visibility='hidden';link.href=`#${selected.id}`;
       link.setAttribute('aria-label',`查看 Highlight：${selected.title}`);
       link.hidden=false;link.inert=false;animateLayer(surface,true);

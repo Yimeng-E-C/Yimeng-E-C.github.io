@@ -1,10 +1,10 @@
-import {mountSmoothScroll} from '../modules/smooth-scroll.mjs';
-import {mountJourney} from './journey.mjs';
-import {mountOpening} from './opening.mjs';
-import {mountPhotoRails} from './photo-rail.mjs';
-import {mountCareerTimeline} from './career-timeline.mjs';
-import {mountTextReveals} from './text-reveal.mjs';
-import {mountContourField} from './contour-field.mjs';
+import {mountSmoothScroll} from '../modules/smooth-scroll.mjs?v=d6f60d73512e';
+import {mountJourney} from './journey.mjs?v=d6f60d73512e';
+import {mountOpening} from './opening.mjs?v=d6f60d73512e';
+import {mountPhotoRails} from './photo-rail.mjs?v=d6f60d73512e';
+import {mountCareerTimeline} from './career-timeline.mjs?v=d6f60d73512e';
+import {mountTextReveals} from './text-reveal.mjs?v=d6f60d73512e';
+import {mountContourField} from './contour-field.mjs?v=d6f60d73512e';
 
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const pointer = matchMedia('(hover: hover) and (pointer: fine)');

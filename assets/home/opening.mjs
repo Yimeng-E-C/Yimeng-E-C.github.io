@@ -1,5 +1,5 @@
-import {mountPortraitGrid} from './portrait-grid.mjs';
-import {mountRibbons} from './ribbon-motion.mjs';
+import {mountPortraitGrid} from './portrait-grid.mjs?v=d6f60d73512e';
+import {mountRibbons} from './ribbon-motion.mjs?v=d6f60d73512e';
 const clamp = v => Math.min(1, Math.max(0, v));
 const smooth = v => v*v*(3-2*v);
 export function mountOpening(root) {
@@ -20,9 +20,9 @@ export function mountOpening(root) {
     const p=motion?clamp(-root.getBoundingClientRect().top/Math.max(1,root.offsetHeight-stage.offsetHeight)):0;
     const w=stage.clientWidth,mobile=w<=760;
     const h=motion?stage.clientHeight:Math.max(innerHeight,mobile?630:650);
-    const size=mobile?Math.min(w*.62,260,h*.32):Math.min(w*.30,h*.38,390);
-    const gap=mobile?22:28;
-    const top=mobile?Math.max(96,h*.14):Math.max(98,(h-size-gap-profile.offsetHeight)/2);
+    const size=mobile?Math.min(w*.62,260,h*.28):Math.min(w*.30,h*.38,390);
+    const gap=mobile?16:28;
+    const top=mobile?Math.max(80,h*.12):Math.max(98,(h-size-gap-profile.offsetHeight)/2);
     const target={x:(w-size)/2,y:top,size};
     const original=portraits.update({progress:p,width:w,height:h,target,motion});
     const profileTop=motion?top+size+gap:original.gridBottom+32;

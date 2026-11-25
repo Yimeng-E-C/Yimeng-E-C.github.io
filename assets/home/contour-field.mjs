@@ -1,5 +1,5 @@
-import {flowPose,sampleFlow} from './contour-flow.mjs';
-import {createContourPointer} from './contour-pointer.mjs';
+import {flowPose,sampleFlow} from './contour-flow.mjs?v=d6f60d73512e';
+import {createContourPointer} from './contour-pointer.mjs?v=d6f60d73512e';
 
 // Original continuous contour field, with locally changing shape and density.
 const mix=(a,b,t)=>a+(b-a)*t;

@@ -1,4 +1,4 @@
-import {galleryLayout} from './photo-layout.mjs';
+import {galleryLayout} from './photo-layout.mjs?v=d6f60d73512e';
 
 // Original implementation of a hover-and-release photo group; no dragging or scroll track.
 export function mountPhotoRails() {
