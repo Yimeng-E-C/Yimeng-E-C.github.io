@@ -1,0 +1,5 @@
+.text-wipe-line{display:block;position:relative;width:fit-content;max-width:100%;white-space:nowrap;clip-path:inset(-.08em 100% -.12em 0)}
+.text-wipe-cover{position:absolute;inset:-.08em -.1em -.12em;pointer-events:none;transform-origin:right center;background:var(--lime);z-index:1}
+[data-reveal-tone="quiet"] .text-wipe-cover{background:#93a46d}
+.chapter-word{display:block}
+@media(prefers-reduced-motion:reduce){.text-wipe-line{clip-path:none!important}.text-wipe-cover{display:none!important}}

@@ -1,0 +1,16 @@
+.portrait-grid{position:absolute;left:50%;top:calc(50% + 12px);width:min(calc(97vw - 109px),calc(97svh - 155px),873px);aspect-ratio:1;transform:translate(-50%,-50%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8.25%;isolation:isolate;z-index:4;overflow:visible}
+.portrait-tile{position:relative;display:block;width:100%;aspect-ratio:1;padding:0;border:0;border-radius:0;margin:0;background:transparent;overflow:visible;appearance:none;opacity:1;cursor:zoom-in;transform-origin:50% 50%;touch-action:pan-y pinch-zoom;-webkit-tap-highlight-color:transparent}
+.portrait-tile img{position:absolute;display:block;max-width:none;width:var(--image-width,100%);height:auto;left:var(--image-x,0%);top:var(--image-y,0%);pointer-events:none;user-select:none;-webkit-user-select:none}
+.portrait-highlight{display:none;cursor:pointer}
+.portrait-grid.is-ready .portrait-highlight:not([hidden]){display:block}
+.portrait-grid .portrait-highlight[hidden]{display:none}
+.portrait-highlight-surface{position:absolute;inset:0;display:block;background:#b8b8b6;transform-origin:center}
+.portrait-tile:focus-visible{outline:3px solid var(--page-ink);outline-offset:4px}
+.portrait-grid.is-ready{inset:0;width:100%;height:100%;aspect-ratio:auto;transform:none;display:block;pointer-events:none}
+.portrait-grid.is-ready .portrait-tile{position:absolute;left:0;top:0;width:var(--tile-size);height:var(--tile-size);aspect-ratio:auto;pointer-events:auto;will-change:transform;z-index:1}
+.portrait-grid.is-transitioning .portrait-tile{cursor:default}
+.portrait-grid.is-transitioning .portrait-tile:not([data-original="true"]){pointer-events:none}
+.portrait-grid.is-settled .portrait-tile[data-original="true"]{cursor:default}
+.opening.is-static .opening-ribbons,.opening.is-static [data-hero-copy]{display:none}
+@media(max-width:760px){.portrait-grid{width:min(calc(97vw - 31px),calc(97svh - 167px))}.portrait-grid.is-ready{width:100%}}
+@media(prefers-reduced-motion:reduce){.portrait-grid.is-ready .portrait-tile{will-change:auto}}
